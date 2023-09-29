@@ -1,0 +1,139 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style the logo */
+.logo img {
+    max-height: 50px;
+}
+
+/* Style the navigation options */
+.nav-options {
+    display: flex;
+}
+
+.nav-options li {
+    margin-right: 20px;
+}
+
+.nav-options li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-options li a:hover {
+    color: #FF5733; /* Change color on hover */
+}
+
+/* Style the search bar */
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.search-bar a:hover{
+    color: white;
+}
+.search-bar button:hover{
+    background-color: #44f39b;
+}
+/* Style the login button */
+.login-button a {
+    text-decoration: none;
+    background-color: #FF5733;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.login-button a:hover {
+    background-color: #44f39b; /* Change background color on hover */
+}
+
+
+
+
+/* slider ka */
+* {box-sizing: border-box}
+      
+body {font-family: Verdana, sans-serif; margin:0}
+
+.images {display: none}
+
+img {
+    vertical-align: middle;
+  width:100%;
+}
+
+/* Slideshow container */
+.carousel-container {
+
+   position: relative;
+   /* margin: auto; */
+}
+
+.mar{
+    margin-top: 10px;
+    
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Next & previous buttons */
+.previous, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit seethrough */
+.prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.navigation-dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+}
+.active, .navigation-dot:hover {
+   background-color: #717171;
+}
